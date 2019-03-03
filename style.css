@@ -550,6 +550,14 @@ dd {
     .dl-horizontal dd {
         margin-left: 112px;
     }
+
+    .dl-horizontal.experience dt {
+        width: 50px;
+    }
+
+    .dl-horizontal.experience dd {
+        margin-left: 56px;
+    }
 }
 
 .icon-list {
@@ -5185,6 +5193,7 @@ h6 {
     padding-bottom: 20px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    display: none;
 }
 
 @media (min-width: 992px) {
@@ -5192,6 +5201,7 @@ h6 {
         border: none;
         background: transparent;
         padding-bottom: 10px;
+        display: block;
     }
 }
 
@@ -5418,6 +5428,10 @@ h6 {
 #ace-nav-sm li .ace-icon {
     font-size: 34px;
     line-height: 42px;
+}
+
+#ace-nav-sm li .ace-icon.deactive{
+    color: #ccc;
 }
 
 #ace-nav-wrap {
